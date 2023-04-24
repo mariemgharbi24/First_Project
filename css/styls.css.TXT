@@ -1,0 +1,12 @@
+e fichier CSS contient des sélecteurs basés sur les attributs HTML 
+data-aos, data-aos-duration, data-aos-delay, et aos-animate. 
+Ces attributs sont utilisés par la bibliothèque 
+d'animation AOS (Animate On Scroll) pour appliquer 
+des effets d'animation aux éléments HTML au fur et 
+à mesure qu'ils apparaissent dans la vue de l'utilisateur
+ lors du défilement.
+
+Le code CSS que vous avez fourni semble définir les propriétés
+ de transition de ces animations, y compris la durée de la transition 
+(transition-duration), le délai de la transition (transition-delay) 
+et la durée de la transition pour les animations en cours (aos-animate).

@@ -1,0 +1,11 @@
+.custom-btn {
+    background-color: #F99790; /* Changer la couleur de fond */
+    border-color: #000000; /* Changer la couleur de la bordure */
+    border-radius: 10px; /* Changer le rayon de la bordure pour donner une forme arrondie */
+    color: #ffffff; /* Changer la couleur du texte */
+  }
+  a[data-toggle="collapse"] {
+    color: red;
+  }
+  
+  

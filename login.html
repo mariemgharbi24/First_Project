@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>ParaMedic &mdash; Parapharmacie En Ligne</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik:400,700|Crimson+Text:400,400i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/jquery-ui.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+   <!--<link rel="stylesheet" href="css/aos.css" />-->
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/logstyle.css" />
+  </head>
+  <body>
+    <div class="site-wrap">
+      <div class="site-navbar py-2">
+        <div class="search-wrap">
+          <div class="container">
+            <a href="#" class="search-close js-search-close"
+              ><span class="icon-close2"></span
+            ></a>
+            <form action="#" method="post">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Recherchez un mot-clé et appuyez sur Entrée.."
+              />
+            </form>
+          </div>
+        </div>
+        <!------En tete------>
+        <div class="container">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="logo">
+              <div class="site-logo">
+                <a href="index.html" class="js-logo-clone">ParaMedic</a>
+              </div>
+            </div>
+            <div class="main-nav d-none d-lg-block">
+              <nav
+                class="site-navigation text-right text-md-center"
+                role="navigation"
+              >
+              <ul class="site-menu js-clone-nav d-none d-lg-block">
+                <li class="active d-inline-block"><a href="index.html">Accueil</a></li>
+                <li class="has-children d-inline-block">
+                  <a href="shop.html">Nos Produits</a>
+                  <ul class="dropdown">
+                    <li><a href="#">Capillaire</a></li>
+                    <li class="has-children">
+                      <a href="#">Visage</a>
+                      <ul class="dropdown">
+                        <li><a href="#">Ecran Solaire</a></li>
+                        <li><a href="#">Soins Visage</a></li>
+                        <li><a href="#">Maquillages solaire</a></li>
+                        <li><a href="#">Nature &amp; Bio</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Corps &amp; Hygiene</a></li>
+                    <li><a href="#">Bebe &amp; Maman</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item d-inline-block"><a class="nav-link" href="#">Mon Compte</a></li>
+                <li class="nav-item d-inline-block"><a class="nav-link" href="AstucesBeauté.html">Astuces Beauté</a></li>
+                <li class="d-inline-block"><a href="about.html">About</a></li>
+                <li class="d-inline-block"><a href="contact.html">Contact</a></li>                  
+              </ul>
+              
+              </nav>
+            </div>
+            <div class="icons">
+                <a href="#" class="icons-btn d-inline-block js-search-open"><span class="icon-search"></span></a>
+                <a href="cart.html" class="icons-btn d-inline-block bag"><span class="icon-shopping-bag"></span><span class="number">2</span></a>
+                <a href="login.html" class="icons-btn d-inline-block user"><span class="icon-user"></span></a>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Connexion -->
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="mb-4">Connexion</h2>
+        <form action="login.php" method="post">
+          <div class="form-group">
+            <label for="email">Adresse email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Mot de passe</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="remember" name="remember">
+            <label class="form-check-label" for="remember">Se souvenir de moi</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Se connecter</button>
+          <a href="forgot_password.php" class="float-right">Mot de passe oublié ?</a>
+        </form>
+      </div>
+      <!-- Inscription -->
+      <div class="col-md-6">
+        <h2 class="mb-4">Inscription</h2>
+        <form action="register.php" method="post">
+          <div class="form-group">
+            <label for="name">Nom complet</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Adresse email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Mot de passe</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+          </div>
+          <div class="form-group">
+            <label for="birthdate">Date de naissance</label>
+            <input type="date" class="form-control" id="birthdate" name="birthdate" required>
+          </div>
+          <div class="form-group">
+            <label for="gouvernorat">Gouvernorat</label>
+            <select class="form-control" id="gouvernorat" name="gouvernorat" required>
+              <option value="">-- Sélectionner un gouvernorat --</option>
+              <option value="Tunis">Tunis</option>
+              <option value="Ariana">Ariana</option>
+              <option value="Ben Arous">Ben Arous</option>
+              <option value="Manouba">Manouba</option>
+              <option value="Nabeul">Nabeul</option>
+              <option value="Zaghouan">Zaghouan</option>
+              <option value="Bizerte">Bizerte</option>
+              <option value="Beja">Béja</option>
+              <option value="Jendouba">Jendouba</option>
+              <option value="Le Kef">Le Kef</option>
+              <option value="Siliana">Siliana</option>
+              <option value="Kairouan">Kairouan</option>
+              <option value="Kasserine">Kasserine</option>
+              <option value="Sidi Bouzid">Sidi Bouzid</option>
+              <option value="Sousse">Sousse</option>
+              <option value="Monastir">Monastir</option>
+              <option value="Mahdia">Mahdia</option>
+              <option value="Sfax">Sfax</option>
+              <option value="Gabes">Gabes</option>
+              <option value="Medenine">Medenine</option>
+              <option value="Tataouine">Tataouine</option>
+              <option value="Gafsa">Gafsa</option>
+              <option value="Tozeur">Tozeur</option>
+              <option value="Kebili">Kébili</option>
+              <!-- Ajoutez ici d'autres options pour les villes -->
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Sexe</label>
+            <div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="gender" id="male" value="male" required>
+                <label class="form-check-label" for="male">Homme</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="gender" id="female" value="female" required>
+                <label class="form-check-label" for="female">Femme</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="agree" name="agree" required>
+            <label class="form-check-label" for="agree">J'accepte les règles et les conditions</label>
+          </div>
+                      
+          <button type="submit" class="btn btn-primary">S'inscrire</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+                            <!------Footer------>
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-5 mb-4 mb-lg-0">
+              <div class="block-7">
+                <h3 class="footer-heading mb-4">Qui sommes-nous ?</h3>
+                <p>
+                  Nous sommes plus qu'une simple entreprise de parapharmacie en ligne. Nous sommes votre partenaire en matière de santé et de beauté, offrant des produits de qualité supérieure et des conseils d'experts pour vous aider à vous sentir bien à l'intérieur et à l'extérieur.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="block-5 mb-5">
+                <h3 class="footer-heading mb-4">Contactez-nous</h3>
+                <ul class="list-unstyled">
+                  <li class="address">
+                    Résidence Maram, 2 éme Etage - Bloc A. Centre Urbain Nord, Tunis
+                  </li>
+                  <li class="phone">
+                    <a href="tel://23923929210">(+216) 71 955 923 / (+216) 92 704 768</a>
+                  </li>
+                  <li class="email">contact@paramedic.com</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+              <div class="block-7">
+                <form>
+                  <h3 class="footer-heading mb-4">Ne manquez rien ! Inscrivez-vous à notre newsletter</h3>
+                  <p class="text-muted">Restez informé de nos nouveaux produits, offres spéciales et événements exclusifs en vous abonnant à notre newsletter.</p>
+                  <div class="input-group">
+                    <input type="email" class="form-control border-secondary" id="email" name="email" placeholder="Entrez votre adresse e-mail" required>
+                    <div class="input-group-append">
+                      <button type="submit" class="btn btn-warning "  style="width: fit-content;">S'abonner</button>
+                    </div>
+                  </div>
+                </form>
+                <div class="social-media mt-4 social-media-custom">
+                  <h3 class="footer-heading mb-4">Suivez-nous sur les réseaux sociaux !</h3>
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#"><span class="icon-facebook"></span></a></li>
+                    <li class="list-inline-item"><a href="#"><span class="icon-instagram"></span></a></li>
+                    <li class="list-inline-item"><a href="#"><span class="icon-twitter"></span></a></li>
+                    <li class="list-inline-item"><a href="#"><span class="icon-linkedin"></span></a></li>
+                  </ul>
+                </div>                
+              </div>
+            </div>
+            </div>
+          </div>
+          
+          <div class="row pt-5 mt-5 text-center">
+            <div class="col-md-12">
+              <p>
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | This website is developed 
+                <i class="icon-heart" aria-hidden="true"></i> by
+                <a
+                href="about.html"
+                target="_blank"
+                class="text-primary"
+                >F&M</a
+              >
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
